@@ -30,3 +30,23 @@ All required Hadoop configuration files are available under the `configs/` direc
 hdfs dfs -mkdir /input
 hdfs dfs -put input.txt /input
 hadoop jar simplewordcount.jar SimpleWordCount /input /output
+# Hadoop 2.7.7 Single Node Cluster & WordCount
+
+## Overview
+Implementation of Hadoop 2.7.7 on Windows using Java 1.8
+with MapReduce WordCount execution.
+
+## Features
+- Hadoop installation
+- HDFS configuration
+- YARN setup
+- JPS verification
+- WordCount MapReduce
+
+## Research Publication
+DOI: https://doi.org/10.5281/zenodo.xxxxxxx
+
+## Author
+Bikkina Hemanth
+Sri Vasavi Engineering College
+
